@@ -1,0 +1,11 @@
+base:
+  build: .
+  volumes:
+    - .:/app
+
+web:
+  extends: base
+  environment:
+    MIX_ENV: dev
+    SLACK_BOT_TOKEN:
+  command: mix do deps.get, run --no-halt
