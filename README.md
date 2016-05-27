@@ -32,5 +32,3 @@ If [available in Hex](https://hex.pm/docs/publish), the package can be installed
   Api endpoint POST "http://awyisser.com/api/generator 
   Request Body => { "phrase": "<msg>" }
   Response Body => { "link": "<link>" }
-
-- Weather for a given destination
