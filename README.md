@@ -25,3 +25,12 @@ If [available in Hex](https://hex.pm/docs/publish), the package can be installed
         def application do
           [applications: [:rb_slackbot]]
         end
+
+## Things to try with slackbot
+
+- Aw yiss generator ( http://awyisser.com/ )
+  Api endpoint POST "http://awyisser.com/api/generator 
+  Request Body => { "phrase": "<msg>" }
+  Response Body => { "link": "<link>" }
+
+- Weather for a given destination
